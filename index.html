@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CHOCOS PREMIUM</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#000;
+color:#fff;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+border-bottom:1px solid #d4af37;
+}
+
+.logo{
+font-size:30px;
+font-weight:bold;
+color:#d4af37;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+}
+
+.hero{
+height:90vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+background:linear-gradient(to right,#000,#111);
+}
+
+.hero h1{
+font-size:60px;
+color:#d4af37;
+}
+
+.hero p{
+margin-top:15px;
+font-size:20px;
+max-width:700px;
+}
+
+.btn{
+display:inline-block;
+margin-top:25px;
+padding:15px 35px;
+background:#d4af37;
+color:#000;
+font-weight:bold;
+text-decoration:none;
+border-radius:6px;
+}
+
+.products{
+padding:60px 8%;
+}
+
+.products h2{
+text-align:center;
+color:#d4af37;
+margin-bottom:40px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:#111;
+padding:15px;
+border-radius:10px;
+text-align:center;
+border:1px solid #222;
+}
+
+.card img{
+width:100%;
+border-radius:10px;
+}
+
+.card h3{
+margin-top:15px;
+}
+
+.price{
+color:#d4af37;
+font-size:22px;
+margin-top:10px;
+}
+
+footer{
+padding:30px;
+text-align:center;
+border-top:1px solid #d4af37;
+margin-top:50px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">CHOCOS PREMIUM</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Shop</a>
+<a href="#">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>Luxury Fashion Collection</h1>
+<p>Premium Quality Oversized T-Shirts & Fashion Wear</p>
+<a href="#" class="btn">SHOP NOW</a>
+</section>
+
+<section class="products">
+
+<h2>Trending Collection</h2>
+
+<div class="grid">
+
+<div class="card">
+<img src="product1.jpg">
+<h3>Anime Oversized T-Shirt</h3>
+<div class="price">₹499</div>
+</div>
+
+<div class="card">
+<img src="product2.jpg">
+<h3>Premium Check Shirt</h3>
+<div class="price">₹649</div>
+</div>
+
+<div class="card">
+<img src="product3.jpg">
+<h3>Luxury Slides</h3>
+<div class="price">₹399</div>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+© 2026 CHOCOS PREMIUM | All Rights Reserved
+</footer>
+
+</body>
+</html>
